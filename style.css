@@ -19,7 +19,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
@@ -131,5 +131,6 @@ h2, h3{
     .recipe__container{
         max-width: 50%;
         margin: 6.5rem 0;
+        font-size: 2rem;
     }
 }
