@@ -129,7 +129,7 @@ h2, h3{
 
 @media screen and (min-width: 500px) {
     .recipe__container{
-        max-width: 40%;
+        max-width: 50%;
         margin: 6.5rem 0;
     }
 }
