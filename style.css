@@ -11,7 +11,8 @@ body{
     align-items: center;
     font-family: Outfit;
     font-weight: 400;
-    color: hsl(14, 45%, 36%);
+    color: hsl(30, 10%, 34%);
+    height: 100%;
 }
 
 .recipe__container{
@@ -21,7 +22,7 @@ body{
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 }
 
 .recipe__container ul, .recipe__container ol{
@@ -121,9 +122,14 @@ hr{
     border-color: hsl(330, 100%, 98%);
 }
 
+h2, h3{
+    font-family: 'Young Serif';
+    color: hsl(14, 45%, 36%);
+}
+
 @media screen and (min-width: 500px) {
     .recipe__container{
         max-width: 40%;
-        margin: 1rem 0;
+        margin: 3.5rem 0;
     }
 }
